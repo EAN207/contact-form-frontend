@@ -6,7 +6,8 @@
 <body> 
 <h2>Contact Us</h2> 
 <!-- Update action with your VM IP --> 
-<form action="http://localhost:8080/contact" method="POST">
+<!-- NEW: pointing to public HTTPS backend -->
+<form action="https://your-backend-domain.com/contact" method="POST">
 <input type="text" name="name" placeholder="Name" required><br><br> 
 <input type="email" name="email" placeholder="Email" required><br><br> 
 <textarea name="message" placeholder="Message"></textarea><br><br> 
